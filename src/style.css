@@ -1,1 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+#palo-abajo {
+  padding-left: 120px;
+  transform: rotate(180deg);
+}
