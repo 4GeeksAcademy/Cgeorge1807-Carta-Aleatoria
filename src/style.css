@@ -1,6 +1,40 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-#palo-abajo {
-  padding-left: 120px;
+body {
+  background-color: #259c41;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  padding: 1rem;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.symbol {
+  font-size: 4rem;
+  position: absolute;
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8rem;
+  text-align: center;
+}
+
+.bottom-right {
+  bottom: 10px;
+  right: 10px;
   transform: rotate(180deg);
 }
